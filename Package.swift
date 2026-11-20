@@ -33,11 +33,11 @@ let package = Package(
         .package(url: "https://github.com/ChimeHQ/SwiftTreeSitter.git", from: "0.25.0"),
         .package(
             url: "https://github.com/alex-pinkus/tree-sitter-swift.git",
-            revision: "31d17fe7e818a2048c808b5c6fdc2dc792f4f5b5"
+            exact: "0.7.3-with-generated-files"
         ),
         .package(
             url: "https://github.com/tree-sitter/tree-sitter-typescript.git",
-            revision: "f975a621f4e7f532fe322e13c4f79495e0a7b2e7"
+            exact: "0.23.2"
         ),
         .package(url: "https://github.com/tree-sitter/tree-sitter-json.git", exact: "0.24.8"),
         .package(url: "https://github.com/tree-sitter/tree-sitter-bash.git", exact: "0.25.1"),
